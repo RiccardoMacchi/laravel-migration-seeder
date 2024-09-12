@@ -16,3 +16,6 @@ use App\Http\Controllers\PageController;
 */
 
 Route::get('/',[PageController::class,'index'])->name('home');
+Route::get('/tutti-i-treni',[PageController::class,'allTrains'])->name('alltrains');
+Route::get('/treni-per-compagnia',[PageController::class,'enterpriseTrains'])->name('enterpirsetrains');
+

@@ -8,6 +8,8 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-link" href="{{ route('home') }}">Home</a>
+                <a class="nav-link" href="{{ route('alltrains') }}">Registro di tutti i treni</a>
+                <a class="nav-link" href="{{ route('enterpirsetrains') }}">Treni per Compagnia</a>
             </div>
         </div>
     </div>

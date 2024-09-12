@@ -11,6 +11,7 @@
         <table class="table">
             <thead>
                 <tr>
+                    <th scope="col">ID TRENO</th>
                     <th scope="col">Compagnia</th>
                     <th scope="col">Stazione di partenza</th>
                     <th scope="col">Orario di partenza</th>
@@ -21,6 +22,7 @@
             <tbody>
                 @foreach ($all_trains as $train)
                     <tr>
+                        <td>{{ $train->id }}</td>
                         <th>{{ $train->enterprise }}</th>
                         <td>{{ $train->departure_station }}</td>
                         <td>{{ $train->departure_hour }}</td>
